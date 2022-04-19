@@ -1,0 +1,10 @@
+{
+    "terms": [
+      {
+        "id": 1,
+        "term": "test",
+        "description": "test",
+        "example": "test"
+      }
+    ]
+}
