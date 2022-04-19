@@ -1,0 +1,165 @@
+/* Font import */
+@import url("https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,400;1,500;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+  background: #1b1b1b;
+}
+
+/* Header */
+header {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  width: 77.8%;
+  height: 4.75%;
+  left: 11.1%;
+  top: 4.75%;
+  /* background-color: red; */
+}
+
+#rethink_logo {
+  position: inherit;
+  left: 0px;
+  /* background-color: aqua; */
+}
+
+#linkedin {
+  position: inherit;
+  right: 0px;
+  /* background-color: aqua; */
+}
+
+/* Info box  */
+#home_info_box {
+  position: absolute;
+  width: 437px;
+  height: 210px;
+  left: 11%;
+  top: 32%;
+  /* background-color: red; */
+}
+
+#home_title {
+  position: inherit;
+  width: 434px;
+  height: 42px;
+  left: 3px;
+  top: 0px;
+
+  white-space: nowrap;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 36px;
+  line-height: 42px;
+
+  color: #ffffff;
+}
+
+#home_info {
+  position: inherit;
+  width: 95%;
+  height: 24%;
+  left: 3px;
+  top: 62px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+
+  color: #ffffff;
+
+  opacity: 0.7;
+}
+
+#home_navigation_buttons {
+  position: inherit;
+  top: 164px;
+  left: 0px;
+}
+
+#home_pdf_downloader {
+  position: inherit;
+  width: 291px;
+  height: 46px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 64px;
+
+  background: #d3fa3a;
+  border-radius: 2px;
+}
+
+#home_pdf_downloader span {
+  position: static;
+  width: 115px;
+  height: 21px;
+  left: 105px;
+  top: 12.5px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: #1b1b1b;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 10px;
+}
+
+#home_pdf_downloader img {
+  position: static;
+  width: 24px;
+  height: 24px;
+  left: 71px;
+  top: 11px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 10px;
+}
+
+/* Decoration */
+
+#home_decoration img {
+  display: none;
+}
+
+@media screen and (min-width: 800px) {
+  #home_decoration img {
+    display: block;
+    position: absolute;
+    width: 308.06px;
+    height: 534.63px;
+    left: 62%;
+    bottom: 13.5%;
+  }
+}
+
+#home_decoration div {
+  position: absolute;
+  width: 435.47px;
+  height: 561.53px;
+  right: 0px;
+  bottom: 1px;
+
+  background: url(./images/background_rethink_arrow.png);
+  opacity: 0.5;
+  z-index: -1;
+}
