@@ -132,7 +132,6 @@ header {
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 0px 10px;
 }
 
 /* Decoration */
@@ -141,7 +140,7 @@ header {
   display: none;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 800px) and (min-height: 550px) {
   #home_decoration img {
     display: block;
     position: absolute;
