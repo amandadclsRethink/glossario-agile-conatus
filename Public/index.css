@@ -180,6 +180,8 @@ header {
   z-index: -1;
 }
 
+/* Footer */
+
 #footer {
   position: absolute;
   width: 100%;
@@ -207,12 +209,45 @@ header {
   text-align: center;
   top: 33%;
   margin: 0px;
+  font-family: "Roboto";
 
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 18px;
-  color: #FFFFFF;
+  color: #ffffff;
   opacity: 0.7;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 18px;
 }
+
+/* Footer - Amanda
+
+  footer {
+    position: absolute;
+    height: 7%;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+
+    background: #4a4949;
+  }
+
+  footer div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+  }
+
+  footer span {
+    font-family: "Roboto";
+    >>>>>>>main font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    <<<<<<< HEAD color: #FFFFFF;
+    opacity: 0.7;
+  }
+
+  */
